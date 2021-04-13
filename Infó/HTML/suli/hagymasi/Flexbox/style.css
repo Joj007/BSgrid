@@ -1,0 +1,70 @@
+/*  Példa 1 */
+
+.form2 input{
+flex: 1;
+}
+
+.form2{
+display: flex;
+}
+
+.form{
+    margin: 20px;
+}
+
+
+
+/*  Példa 2 */
+
+.main{
+display: flex;
+}
+
+.big{
+flex: 2;
+order: 2;
+}
+
+.small1{
+flex: 1;
+order: 1;
+}
+
+.small2{
+flex: 1;
+order: 3;
+}
+
+
+
+/*  Példa 3 */
+
+.main2{
+    justify-content: space-between;
+    display: flex;
+}
+
+.lila{
+background-color: purple;
+margin: 2%;
+padding: 10px;
+}
+
+.zold{
+background-color: green;
+margin: 2%;
+padding: 10px;
+}
+
+.kek{
+background-color: blue;
+margin: 2%;
+padding: 10px;
+}
+
+@media (min-width: 900px) {
+    .call-outs-container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
